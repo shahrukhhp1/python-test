@@ -58,3 +58,14 @@ print(fruits)
 print(len(fruits))
 
 
+
+
+
+#tupple immutable - cant be change only difference
+atuple= ('abc',21,'sameer')
+print(atuple.index(21))
+atpl2 = 12,'ab',21,'ab'
+print(atpl2)
+print(atpl2.count('ab'))
+
+
