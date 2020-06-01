@@ -69,3 +69,20 @@ print(atpl2)
 print(atpl2.count('ab'))
 
 
+
+
+#loops
+fruits = ['ca', 'at', 'ddd', 'cd', 'ab',23, 'appl', 'a']
+
+for elem in fruits:
+    print(elem)
+
+for it in range(5):
+    print(fruits[it])
+
+tableNumber = int(input("Enter number:"))
+for item in range(1,11):
+    print(f'{tableNumber} x {item} = {item*tableNumber}')
+
+
+
