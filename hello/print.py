@@ -32,6 +32,19 @@ for i in range(len(fruits)):
 
 #lists
 fruits = ['ca', 'at', 'ddd', 'cd', 'ab',23, 'appl', 'a']
+fruits.append('lala') #adding values
+print(fruits)
+
+print(fruits)
+
+fruits.insert(2,'lala2')
+
+print(fruits)
+fruits.extend(['zz',213])
+
+print(fruits)
+
+
 ab = fruits.index('appl')
 print(ab)
 
