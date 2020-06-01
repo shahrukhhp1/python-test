@@ -15,7 +15,7 @@ for i in range(len(fruits)):
         lIndex = len(item) - b - 1
         toPrint+=item[lIndex]
     print(toPrint)
-## hurray    
+## hurray
 
 
 
@@ -26,5 +26,35 @@ for i in range(len(fruits)):
 ##        break
 ##print('done')
 ##
-##    
-##    
+##
+##
+
+
+#lists
+fruits = ['ca', 'at', 'ddd', 'cd', 'ab',23, 'appl', 'a']
+ab = fruits.index('appl')
+print(ab)
+
+print(fruits[1:4]) # slice
+
+del fruits[1]
+
+
+
+print(fruits)
+
+
+
+fruits.remove('ab')
+
+
+
+print(fruits)
+
+print(fruits.pop())
+
+print(fruits)
+
+print(len(fruits))
+
+
