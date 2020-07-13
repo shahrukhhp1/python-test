@@ -29,4 +29,49 @@ def testFunc(num1,num2=5):
 def pizza(name,flavour,*toppings): #arbitary arguments with star sign
     print(f"you have ordered {name} pizza with flavour {flavour} with top {toppings}")
     
-pizza("chiken","fatija","mushroom","olives")
+#pizza("chiken","fatija","mushroom","olives")
+
+
+def testRetFunc(num1,num2=5):
+    ans = num1 + num2
+    return ans
+
+
+#a = testRetFunc(1,2)
+#print(a)
+
+
+flag = True
+items = []
+while(flag):
+    uIput= input("Enter food: ")
+    if uIput == "Q":
+        flag = False
+    else:
+       items.append(uIput)
+print(items)
+
+
+#read , write , append
+with open("filename.txt","r") as file:
+    content = file.read()
+    
+    
+with open("filename.txt","w") as file:
+    file.write("test data")
+    
+    #below mode will create and write and read file
+with open("filename.txt","w+") as file:
+    file.write("test data file")
+    file.seek(0)
+    print(file.read())
+    
+    
+    #below mode will write and read file not create
+with open("filename.txt","r+") as file:
+    file.write("test data file")
+    file.seek(0)
+    print(file.read())
+
+       
+    
