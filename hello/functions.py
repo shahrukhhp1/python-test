@@ -67,11 +67,7 @@ with open("filename.txt","w+") as file:
     print(file.read())
     
     
-    #below mode will write and read file not create
-with open("filename.txt","r+") as file:
-    file.write("test data file")
-    file.seek(0)
-    print(file.read())
+
 
        
     
